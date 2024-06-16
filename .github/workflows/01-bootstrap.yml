@@ -15,6 +15,7 @@ jobs:
   deploy:
     runs-on: ubuntu-20.04
     name: Bootstrap CDK
+    environment: dev
     if: github.ref == 'refs/heads/main'
     steps:
 
