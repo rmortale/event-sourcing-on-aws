@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Infrastructure as code",
   "scripts": {
-    "bootstrap": "cdk bootstrap --app 'mvn -e compile exec:java -Dexec.mainClass=ch.dulce.resapp.infra.BootstrapApp'"
+    "bootstrap": "cdk bootstrap --app 'mvn -e -q compile exec:java -Dexec.mainClass=ch.dulce.resapp.infra.BootstrapApp'"
   },
   "author": "me",
   "license": "ISC",
