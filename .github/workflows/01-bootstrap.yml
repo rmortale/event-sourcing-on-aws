@@ -33,7 +33,7 @@ jobs:
         run: npm install
 
       - name: Deploy CDK bootstrap stack
-        working-directory: cdk
+        working-directory: cdk/reservation-infra
         run: npm run bootstrap
 
 
