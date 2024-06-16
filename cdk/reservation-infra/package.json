@@ -1,0 +1,13 @@
+{
+  "name": "reservation-infra",
+  "version": "1.0.0",
+  "description": "Infrastructure as code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-cdk": "^2.146.0"
+  }
+}
