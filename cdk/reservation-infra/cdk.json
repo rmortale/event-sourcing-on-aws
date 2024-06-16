@@ -1,18 +1,7 @@
 {
-  "app": "mvn -e -q compile exec:java",
-  "watch": {
-    "include": [
-      "**"
-    ],
-    "exclude": [
-      "README.md",
-      "cdk*.json",
-      "target",
-      "pom.xml",
-      "src/test"
-    ]
-  },
   "context": {
+    "accountId": "601912882130",
+    "region": "eu-central-2",
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": [
