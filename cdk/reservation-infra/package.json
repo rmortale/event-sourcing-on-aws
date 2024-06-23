@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Infrastructure as code",
   "scripts": {
-    "bootstrap": "cdk bootstrap --app 'mvn -e -q compile exec:java -Dexec.mainClass=ch.dulce.resapp.infra.BootstrapApp'"
+    "bootstrap": "cdk bootstrap --app 'mvn -e -q compile exec:java -Dexec.mainClass=ch.dulce.resapp.infra.BootstrapApp'",
+    "gateway:deploy": "cdk deploy --app 'mvn -e -q compile exec:java -Dexec.mainClass=ch.dulce.resapp.infra.ApiGateway' --require-approval never",
+    "gateway:destroy": "cdk destroy --app 'mvn -e -q compile exec:java -Dexec.mainClass=ch.dulce.resapp.infra.ApiGateway' --force --require-approval never"
   },
   "author": "me",
   "license": "ISC",
