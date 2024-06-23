@@ -19,7 +19,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
-    name: Deploy aPI Gateway
+    name: Deploy API Gateway
     if: github.ref == 'refs/heads/main'
     steps:
 

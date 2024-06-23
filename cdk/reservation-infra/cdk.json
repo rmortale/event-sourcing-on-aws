@@ -1,5 +1,6 @@
 {
   "context": {
+    "applicationName": "ReservationApp",
     "accountId": "211125653318",
     "region": "eu-central-2",
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
