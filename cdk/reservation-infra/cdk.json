@@ -1,6 +1,6 @@
 {
   "context": {
-    "accountId": "601912882130",
+    "accountId": "211125653318",
     "region": "eu-central-2",
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
